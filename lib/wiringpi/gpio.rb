@@ -135,5 +135,9 @@ module WiringPi
         @pins[offset + module_instance.pin_base] = 'ENABLED'
       end
     end
+
+    def pwm_write(pin, value)
+      Wiringpi.pwmWrite(pin, value)
+    end
   end
 end

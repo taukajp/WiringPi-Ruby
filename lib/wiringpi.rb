@@ -7,7 +7,9 @@ module WiringPi
 
   INPUT = 0
   OUTPUT = 1
-  PWM_OUTPUT = 1
+  PWM_OUTPUT = 2
+  PWM_MODE_MS = 0
+  PWM_MODE_VAL = 1
 
   PUD_OFF = 0
   PUD_DOWN = 1
